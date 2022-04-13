@@ -9,7 +9,7 @@ assess potential differences in 2 populations in single cell data, that could be
 
 This code represents an experimental idea on how to measure subtle differences in single cell data for 2 groups.
 
-1. Genes of interested (e.g. NFkB targets) and the 2 cell populations (e.g. group1 (wt) and group2 (ko) ) are selected
+1. Genes of interested (e.g. NF-kB targets) and the 2 cell populations (e.g. group1 (wt) and group2 (ko) ) are selected
 2. Every gene is ranked from highest to lowest.
 3. The expression values for one group are multiplied by -1 (e.g. group2) 
 5. Cumulative sums of the ranked and modified expression values can be calculated and plotted.
@@ -24,5 +24,5 @@ The inclusion of gene expression and not only the rank gives more weight to cell
 ![alt text](./Individual_genes_ranked_in_wt-ko.jpg)
 Rank is shown on the y-axis and a normalized cumulative sum of expression values on the x-axis
 
-### Plot of min and max values for the described procedure. Significant NFkB target genes are shown.
+### Plot of min and max values for the described procedure. Significant NF-kB target genes are shown.
 ![alt text](./Significant_gene_rankings_for_NFkB_targets.jpg)
